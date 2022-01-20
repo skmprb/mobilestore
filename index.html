@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Mobile Store</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+	<nav>
+		<input type="checkbox" id="check" >
+		<label for="check" class="checkbtn">
+			<i class="fas fa-bars"></i>
+		</label>
+		<label class="logo">SKMPRB</label>
+		<ul class="ul">
+			<li><a class="active" href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="mobiles.html">Mobiles</a></li>
+		</ul>
+	</nav>
+
+	<div class="slider">
+		<div class="myslider fade" style="display: block;">
+			<img class="is" src="images/is1.webp" style="width: 100%;height: 70vh;">
+		</div>
+		<div class="myslider fade">
+			<img class="is" src="images/redmi7.jpg" style="width: 100%;height: 70vh;">
+		</div>
+		<div class="myslider fade">
+			<img class="is" src="images/novay7.jpg" style="width: 100%;height: 70vh;">
+		</div>
+		<div class="myslider fade">
+			<img class="is" src="images/samsung.webp" style="width: 100%;height: 70vh;">
+		</div>
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+
+	<div class="dotsbox" style="text-align: center;">
+		<span class="dot" onclick="currentSlide(1)"></span>
+		<span class="dot" onclick="currentSlide(2)"></span>
+		<span class="dot" onclick="currentSlide(3)"></span>
+		<span class="dot" onclick="currentSlide(4)"></span>
+		<span class="dot" onclick="currentSlide(5)"></span>
+	</div>
+	<div class="brands">
+		<h3>OUR BRANDS</h3>
+		<div class="mrow">
+			<div class="mcol">
+				<div class="mbrand">
+				<a href="mobiles.html"><img src="images/m1.png"></a>
+				</div>
+			</div>
+			<div class="mcol">
+				<div class="mbrand">
+				<a href="mobiles.html"><img src="images/sam.png"></a>
+				</div>
+			</div>
+			<div class="mcol">
+				<div class="mbrand">
+				<a href="mobiles.html"><img src="images/app.png" style="width: 70px; margin-top: 40px;" ></a>
+				</div>
+			</div>
+			<div class="mcol">
+				<div class="mbrand">
+				<a href="mobiles.html"><img src="images/mi.png"></a>
+				</div>
+			</div>
+			<div class="mcol">
+				<div class="mbrand">
+				<a href="mobiles.html"><img src="images/nokial.png" style="margin-top: 40px;"></a>
+				</div>
+			</div>
+			
+			</div>
+		</div>
+	</div>
+
+	<div class="phones">
+		<div>
+			<h3>TRENDING MODELS</h3>
+		</div>
+		<img class="trend" src="images/apple1.jpg" style="width: 100%; height: 60vh;">
+		<img class="trend" src="images/nokia.jpg" style="width: 100%; height: 60vh;">
+		<img class="trend" src="images/op.jpg" style="width: 100%; height: 60vh;">
+		<img class="trend" src="images/hwebp.webp" style="width: 100%; height: 60vh;">
+	</div>
+
+<script src="js.js"></script>
+</body>
+<footer class="footer">
+	<div class="cotainer">
+		<div class="row">
+			<div class="footer-col">
+				<h4>company</h4>
+				<ul>
+					<li><a href="#">about us</a></li>
+					<li><a href="#">our services</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h4>get help</h4>
+				<ul>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">shipping</a></li>
+					<li><a href="#">return</a></li>
+					<li><a href="#">order status</a></li>
+					<li><a href="#">payment options</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h4>online shop</h4>
+				<ul>
+					<li><a href="#">apple</a></li>
+					<li><a href="#">samsung</a></li>
+					<li><a href="#">huawei</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h4>follow us</h4>
+				<div class="social-icons">
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-linkedin-in"></i></a>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+</footer>
+</html>
